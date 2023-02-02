@@ -58,3 +58,7 @@ legend {
     height: 100%;
     border: 0;
 }
+
+.clearfix{
+    clear:both;
+}
