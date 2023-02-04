@@ -7,7 +7,7 @@
 
         <meta name="nex-head-count" content="5">
 
-        <!-- Protocolo Open Graph es usado en Preview para redes sociales -->
+        <!-- Protocolo Open Graph es usado en Preview para redes sociales y va en el head-->
         <meta property="og:title" content="Web Semántica"/>
         <meta property="og:tipe" content="article"/>
         <meta property="og:url" content="https://websemantica"/>
@@ -26,15 +26,15 @@
         <!-- Capa de Presentación adaptables a diferentes pantallas de la fuente BootStrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-        <!-- Este es el link al archivo de estilos de css para mejora de presentación de mi blog en html -->
-        <link rel="stylesheet" href="./css/styles.css" type="text/css"/>        
+        <!-- Este es el archivo de estilos de css para mejora de presentación de mi blog en html -->
+        <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
+
     </head>
-    
     <body>
-        <div class="container">
-            <div id="div_datospersonales">
+        <section>
+            <div class="container">                
                 <img src="./multimedios/imagenes/miFoto.jpg" width="125">
-                <h2>Diego Esteban Barrera</h2>
+                <h2>Juan De Los Palotes</h2>
                 <p>Dirección: <strong>Av.Belgrano 4500, Dto 22</strong>  Celular:<strong> 54-381-456-1599</strong>.</p>
                 <br>
                 <fieldset>
@@ -42,9 +42,9 @@
                     <ul>
                         <li>Nacionalidad:<strong> argentina + italia</strong>.</li>
                         <li>Fecha de nacimiento:<strong> 04/11/1976</strong>.</li>
-                        <li>DNI:<strong> 18.505.924</strong>.</li>
-                        <li>email:<strong> diegoestebanbarrera@gmail.com</strong>.</li>
-                        <li>Dominio de idiomas:<strong> español</strong>.</li>
+                        <li>DNI:<strong> 33.333.333</strong>.</li>
+                        <li>email:<strong> juandelospalotes@gmail.com</strong>.</li>
+                        <li>Dominio de idiomas:<strong> español, japones, italiano, portugues</strong>.</li>
                     </ul>
                 </fieldset>
                 <br>
@@ -65,22 +65,23 @@
                 <br>
                 <fieldset>
                     <legend>Experiencia y habilidades.</legend>
-                    <p>Trabajé teniendo a cargo el Departamento de Systemas y Cómputos de Datos por más de 10 años en Supercanal sa. que es una importante empresa de telecomunicaciones del país, con sucursales en todo el país. El sistema operativo con el que mantenía como administrador era SCO UNIX Santa Cruz Operating System. Los desarrollos de programación se realizaban en Progress; La red se distribuía para los clientes por medio de Terminal-Server y los puestos de trabajos eran terminales bobas conectadas por medio de cable UTP.</p>
-                    <p>También estaba a cargo de todo lo referente al hardware. Servidores, terminales, enrutadores, Swich. Impresoras, Scaners, lápices ópticos y la red lan intranet.</p>
-                    <p>Adquirí experiencia en análisis de sistemas y diagramación de procesos administrativos para su posterior implementación en las lineas de código de programación.</p>
-                    <p>Adquirí experiencia en coordinación de grupos de trabajo.</p>
-                    <p>Adquirí experiencia en tareas de impresión de Facturación mensual para más de cincuenta mil clientes.</p>
-                    <p>Adquirí experiencia en organización de Backup diarios en varias estrategias de respaldo en distintos formatos y dispositivos.</p>
-                    <p>También Realicé desarrollo de sistemas en FoxPro para UNIX, y cuando era niño programaba y compilaba en Lenguaje Basic, y en la universidad aprendí Pascal por ser una de las materias de Ingeniería Electrónica.</p>
-                    <p>Domino las herramientas de oficina, como ser paquete Office entre otros.</p>
-                    <p>Hace unos años atrás empecé a estudiar los kernel de linux en sus distintas distribuciones. Comenzando por debian, Red Hat y otras. Actualmente administro servidores propios de la distro Rocky Linux 9.1. Administro apache (httpd) y dos servidores dns (named) con un motor de Base de datos SQL, mariadb el cual también lo administro, con software visuales amigables de terceros como ser Navicat y los de distribución libre como ser DBeaver.</p>
-                    <p>Actualmente me desempeño en el mantenimiento de redes EoC y dando mantenimiento básico a clientes de la empresa de VideoCable Supercanal, en tanto que el área de sistema desapareció de Tucumán, porque centralizaron lo referente a systema en la provincia de Mendoza.
-                    <p>Adquirí experiencia en trabajo en altura, redes de fibra óptica EPON y GPON uso de todo los instrumentos de medición, OTDR, Medidores de Campo ElectroMagneticos, Calibración de redes de CATV; uso de fusionadora de Fibra Optica.</p>
+                        <p>Trabajé teniendo a cargo el Departamento de Systemas y Cómputos de Datos por más de 10 años en Supercanal sa. que es una importante empresa de telecomunicaciones del país, con sucursales en todo el país. El sistema operativo con el que mantenía como administrador era SCO UNIX Santa Cruz Operating System. Los desarrollos de programación se realizaban en Progress; La red se distribuía para los clientes por medio de Terminal-Server y los puestos de trabajos eran terminales bobas conectadas por medio de cable UTP.</p>
+                        <p>También estaba a cargo de todo lo referente al hardware. Servidores, terminales, enrutadores, Swich. Impresoras, Scaners, lápices ópticos y la red lan intranet.</p>
+                        <p>Adquirí experiencia en análisis de sistemas y diagramación de procesos administrativos para su posterior implementación en las lineas de código de programación.</p>
+                        <p>Adquirí experiencia en coordinación de grupos de trabajo.</p>
+                        <p>Adquirí experiencia en tareas de impresión de Facturación mensual para más de cincuenta mil clientes.</p>
+                        <p>Adquirí experiencia en organización de Backup diarios en varias estrategias de respaldo en distintos formatos y dispositivos.</p>
+                        <p>También Realicé desarrollo de sistemas en FoxPro para UNIX, y cuando era niño programaba y compilaba en Lenguaje Basic, y en la universidad aprendí Pascal por ser una de las materias de Ingeniería Electrónica.</p>
+                        <p>Domino las herramientas de oficina, como ser paquete Office entre otros.</p>
+                        <p>Hace unos años atrás empecé a estudiar los kernel de linux en sus distintas distribuciones. Comenzando por debian, Red Hat y otras. Actualmente administro servidores propios de la distro Rocky Linux 9.1. Administro apache (httpd) y dos servidores dns (named) con un motor de Base de datos SQL, mariadb el cual también lo administro, con software visuales amigables de terceros como ser Navicat y los de distribución libre como ser DBeaver.</p>
+                        <p>Actualmente me desempeño en el mantenimiento de redes EoC y dando mantenimiento básico a clientes de la empresa de VideoCable Supercanal, en tanto que el área de sistema desapareció de Tucumán, porque centralizaron lo referente a systema en la provincia de Mendoza.
+                        <p>Adquirí experiencia en trabajo en altura, redes de fibra óptica EPON y GPON uso de todo los instrumentos de medición, OTDR, Medidores de Campo ElectroMagneticos, Calibración de redes de CATV; uso de fusionadora de Fibra Optica.</p>
                 </fieldset>
                 <br>
                 <fieldset>
                     <legend>Compartiendo multimedios de mi interés</legend>
                     <h2 id="h2_01">Enlaces a fotos referentes a Mainframe</h2>
+                    <!-- Buena práctica: Los anclajes SOLO deben tener "anclas", NUNCA Botones u otros elementos -->
                     <a id="anclaje-imagen" href="https://th.bing.com/th/id/R.dd20f304e00b04a01e880a3a4f39ee1b?rik=QTB8NpjrsIi6uQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-cjVH4VTMisc%2fUCYfIHmy0lI%2fAAAAAAAAAWc%2fF9-C4TFg-IY%2fs1600%2fMainframe.jpg&ehk=1lbUqTVsQuqMii05G%2feT8qnGuH519CLlK25ySaeEf44%3d&risl=&pid=ImgRaw&r=0" target="_blank">[Foto 1]</a>
                     <a id="anclaje-imagen" href="https://1.bp.blogspot.com/-wo2TlkVPzCE/Xpr_csSGi5I/AAAAAAAAJMw/_DzBH0UMzq4zXv1OXTYkpnFFcTYGrsPRwCNcBGAsYHQ/s1600/Inside%2BZ9%2BIBM%2BMainframe.jpg" target="_blank" rel="noflow">[Foto 2]</a>
                     <a id="anclaje-imagen" href="https://img.favpng.com/10/1/15/ibm-z13-mainframe-computer-linux-on-z-systems-png-favpng-89FGbHq9UDaK17CeLfv3GzHHf.jpg" target="_blank" rel="noflow">[Foto 3]</a>
@@ -94,6 +95,8 @@
                     <br>
                     <br>
                     <h2 id="h2_01">Elaces a VideoClips de Música de LMFAO para levantar el ánimo  :)</h2>
+                    <!-- Debido a que no pude subir videos en github, es que modifiqué
+                    el código con "anclas" apuntando hacia los destinos en youtube -->
                     <a id="anclaje-video" href="https://www.youtube.com/watch?v=xGiBiHocSZM" rel="noflow">[VideoClips 1]</a>
                     <a id="anclaje-video" href="https://www.youtube.com/watch?v=wyx6JDQCslE" rel="noflow">[VideoClips 2]</a>
                     <a id="anclaje-video" href="https://www.youtube.com/watch?v=CdLhdrNgGu4" rel="noflow">[VideoClips 3]</a>
@@ -104,15 +107,16 @@
                     <a id="anclaje-video" href="https://www.youtube.com/watch?v=UA8rcLvS1BY" rel="noflow">[VideoClips 8]</a>
                 </fieldset>
             </div>
-        </div>
-        <div class="clearfix"></div>
+            <div class="clearfix"></div>
+            
             <footer>
-                    Curso Front end con 14 módulos en 18 días; HTML, CSS, JS   &copy; 2023
+                <h6>Proyecto final para "Educación en línea" - Front end de Argentina Programa - 14 módulos en 18 días; HTML, CSS y JS</h6>
+                <h6>A menos que se indique lo contrario, el contenido de este sitio está licenciado bajo la licencia Creative deb_ar.  -   Reconocimiento Compartido - v1.0. -   &copy; 2023</h6>
             </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            <script src="/js/adaptabilidadgrafica.js"></script>
+        </section>
     </body>
 </html>
 <!-- LOS DATOS DE ESTE BOSQUEJO DE BLOG SON SOLO A MODO DE PRESENTACION
 DE PROYECTO,  EN TANTO QUE LOS  VIDEOS  AQUI PRESENTADOS NO SE GESTIONO
-PERMISO  DE  REPRODUCCION  EN  OTRO  MEDIO  PUBLICO QUE NO SEA YOUTUBE.
--->
+PERMISO DE REPRODUCCION EN  OTRO  MEDIO  PUBLICO QUE NO SEA YOUTUBE.-->
