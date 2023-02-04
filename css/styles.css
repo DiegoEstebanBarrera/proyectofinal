@@ -3,11 +3,20 @@ body {
     background-color:#9ec29f;
 }
 
+/*Recuadro principal*/
+section {
+        width: 400 px;
+        border: 15px transparent;
+        padding: 50px;
+        margin: 20px;
+}
+
 .container {
-    border:solid 1px;
+    border:transparent 1px;
     padding:8px;
 }
 
+/* Con esto logro el efecto de doble line del borde del recuadro*/
 #div_datospersonales {
     border:solid 1px;
     padding:8px;
@@ -43,7 +52,7 @@ legend {
     margin: 0 auto;
 }
 
-/* .wrap-element y .wrapped-iframe Esto uso para el despliegue de video de youtube que gestionaré con js si llego con el tiempo*/
+/* .wrap-element y .wrapped-iframe Esto lo usaré para el despliegue de video de youtube que gestionaré con js si llego con el tiempo*/
 .wrap-element {
     position: relative;
     overflow: hidden;
@@ -64,9 +73,15 @@ legend {
 }
 
 footer{
-    background: rgb(36, 35, 35);
+    background: rgb(0, 52, 10);
     color: white;
     text-align: center;
-    height: 50px;
+    height: 100%;
     line-height: 50px;
+
+    /* parametros de mi recuadro*/
+    width: 100%;
+    border: 40px solid rgb(0, 52, 10);
+    padding: 0px;
+    margin: 20px;
 }
