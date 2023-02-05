@@ -11,7 +11,7 @@
 
         <meta name = "viewport" content = "width = device-width, initial-scale=1.0"/>
 
-        <!-- Protocolo Open Graph es usado en Preview para redes sociales -->
+        <!-- Protocolo Open Graph es usado en Preview para redes sociales y va en el head-->
         <meta property = "og:title" content = "Web Semántica"/>
         <meta property = "og:tipe" content = "article"/>
         <meta property = "og:url" content = "https://websemantica"/>
@@ -31,19 +31,18 @@
 
         <!-- Estilos de la Capa de Presentación -->
         <link rel = "stylesheet" href = "./css/styles.css" type="text/css"/>
-
     </head>
 
     <body>
         <section>
-            <div class = "container">
+            <section id="Seccion-Reloj-Calendario">
                 <div id = "fecha">
                     <script src = "./js/fecha.js"></script>
-                </div>
-                <br>                
+                </div>               
                 <div id = "reloj-digital">
                     <script src = "./js/reloj-digital.js"></script>
                 </div>
+            </section>
                 <img id = "fotocarnet" src = "./multimedios/imagenes/fotoAION.png">
                 <h2>Juan De Los Palotes</h2>
                 <p>Dirección: <strong>Av.Belgrano 5500, Dto 10;</strong>  Celular:<strong> 54-381-456-9999</strong>.</p>
@@ -117,8 +116,8 @@
                     <a id="anclaje-video" href="https://www.youtube.com/watch?v=Ye6r1OCWrW4" rel="noflow">[VideoClips 7]</a>
                     <a id="anclaje-video" href="https://www.youtube.com/watch?v=UA8rcLvS1BY" rel="noflow">[VideoClips 8]</a>
                 </fieldset>
-            </div>
-            <div class="clearfix"></div>
+            
+                <div class="clearfix"></div>
             
             <footer>
                 <h6>Proyecto final para "Educación en línea" - Front end de Argentina Programa - 14 módulos en 18 días; HTML, CSS y JS</h6>
