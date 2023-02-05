@@ -9,17 +9,41 @@ section {
         border: 15px transparent;
         padding: 50px;
         margin: 20px;
+
+        border:transparent 1px;
+        padding:8px;
 }
 
-.container {
-    border:transparent 1px;
-    padding:8px;
+#Seccion-Reloj-Calendario {
+    background-color: rgb(148, 182, 161);
+    width: 350px;
+    border: 1px transparent;
+    padding: 10px;
+    float: Right;
+    margin-top: 0px;
+    margin-left: 50%;
+    margin-right: 0px;
+    margin-bottom: 2px;
 }
 
 /* Con esto logro el efecto de doble line del borde del recuadro*/
 #div_datospersonales {
     border:solid 1px;
     padding:8px;
+}
+
+#fecha {
+    font-size: 20px;
+    text-align: right;
+}
+
+#reloj-digital {
+    font-size: 20px;
+    text-align: right;
+}
+
+#fotocarnet {
+    width: 270px;
 }
 
 legend {
@@ -35,7 +59,11 @@ legend {
     display: block;
     padding-inline-start: 2px;
     padding-inline-end: 2px;
-    text-align:center;
+    text-align: center;
+}
+
+#p-texto {
+    text-align: justify;
 }
 
 #h2_01 {
@@ -52,7 +80,7 @@ legend {
     margin: 0 auto;
 }
 
-/* .wrap-element y .wrapped-iframe Esto lo usaré para el despliegue de video de youtube que gestionaré con js si llego con el tiempo*/
+/* .wrap-element y .wrapped-iframe Esto lo usaré para el despliegu
 .wrap-element {
     position: relative;
     overflow: hidden;
