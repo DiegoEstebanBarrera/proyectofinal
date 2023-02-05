@@ -1,50 +1,61 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang = "es">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset = "UTF-8"/>
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge"/>
 
-        <meta name="nex-head-count" content="5">
+        <!-- La meta etiqueta “robots” se utiliza para decirle a los robots de los motores de
+        búsqueda si pueden o no indexar la página y si deben seguir los enlaces que contiene.-->
+        <meta name = "robots" content = "noindex, nofollow"/>
+        <meta name = "nex-head-count" content = "5"/>
+
+        <meta name = "viewport" content = "width = device-width, initial-scale=1.0"/>
 
         <!-- Protocolo Open Graph es usado en Preview para redes sociales y va en el head-->
-        <meta property="og:title" content="Web Semántica"/>
-        <meta property="og:tipe" content="article"/>
-        <meta property="og:url" content="https://websemantica"/>
-        <meta property="og:image" content="httpd://websemantica/image.image.jpg"/>
-        <meta property="og:description" content="Elem.Semanticos + usados"/>
+        <meta property = "og:title" content = "Web Semántica"/>
+        <meta property = "og:tipe" content = "article"/>
+        <meta property = "og:url" content = "https://websemantica"/>
+        <meta property = "og:image" content = "httpd://websemantica/image.image.jpg"/>
+        <meta property = "og:description" content = "Elem.Semanticos + usados"/>
 
         <title>Ticmas01</title>
-
-        <link rel="icon" href="https://academy.profesional.ticmas.io/favicon.ico">
+        <link rel = "icon" href = "https://academy.profesional.ticmas.io/favicon.ico"/>
 
         <!-- Aqui abajo pego el link de la tipografia de https://fonts.google.com/specimen/Merriweather -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel = "preconnect" href = "https://fonts.googleapis.com"/>
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin/>
+        <link href = "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel = "stylesheet"/>
 
         <!-- Capa de Presentación adaptables a diferentes pantallas de la fuente BootStrap -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity = "sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin = "Estilo de mi Capa de Presentaciónanonymous"/>
 
-        <!-- Este es el archivo de estilos de css para mejora de presentación de mi blog en html -->
-        <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
+        <!-- Estilos de la Capa de Presentación -->
+        <link rel = "stylesheet" href = "./css/styles.css" type="text/css"/>
 
     </head>
+
     <body>
         <section>
-            <div class="container">                
-                <img src="./multimedios/imagenes/miFoto.jpg" width="125">
+            <div class = "container">
+                <div id = "fecha">
+                    <script src = "./js/fecha.js"></script>
+                </div>
+                <br>                
+                <div id = "reloj-digital">
+                    <script src = "./js/reloj-digital.js"></script>
+                </div>
+                <img id = "fotocarnet" src = "./multimedios/imagenes/fotoAION.png">
                 <h2>Juan De Los Palotes</h2>
-                <p>Dirección: <strong>Av.Belgrano 4500, Dto 22</strong>  Celular:<strong> 54-381-456-1599</strong>.</p>
+                <p>Dirección: <strong>Av.Belgrano 5500, Dto 10;</strong>  Celular:<strong> 54-381-456-9999</strong>.</p>
                 <br>
                 <fieldset>
                     <legend>Datos Generales</legend>
                     <ul>
                         <li>Nacionalidad:<strong> argentina + italia</strong>.</li>
-                        <li>Fecha de nacimiento:<strong> 04/11/1976</strong>.</li>
+                        <li>Fecha de nacimiento:<strong> 04/11/1986</strong>.</li>
                         <li>DNI:<strong> 33.333.333</strong>.</li>
                         <li>email:<strong> juandelospalotes@gmail.com</strong>.</li>
-                        <li>Dominio de idiomas:<strong> español, japones, italiano, portugues</strong>.</li>
+                        <li>Dominio de idiomas:<strong> español, japones, italiano, portugués</strong>.</li>
                     </ul>
                 </fieldset>
                 <br>
@@ -52,30 +63,30 @@
                     <legend>Estudios realizados</legend>
                     <ol>
                         <li>Primario:<strong> Distintas escuelas del país (Bs.As., Salta, Tierra del Fuego y Tucumán)</strong>.</li>
-                        <li>Secundario:<strong> ENET N°3 y ENET N°5</strong> Título:<strong> Técnico Electro-Mecánico</strong>.</li>
-                        <li>Tecnicatura:<strong> Universidad Siglo XXI</strong> Título:<strong> Redes informáticas y Telecomunicaciones</strong>.</li>
-                        <li>Tecnicatura:<strong> U.T.N.</strong> Título:<strong> Mecatrónica</strong>.</li>
-                        <li>Universidad:<strong> U.T.N.</strong> Título:<strong> Ingeniería Electrónica</strong> Especialidad:<strong> Robotica</strong>.</li>
-                        <li>Otros estudios o conocimintos:<strong> Profesor KARATE-DO </strong>estilo: <strong> SHOTOKAN</strong>.</li>
-                        <li>Tecnicatura:<strong> Canal 10 Tucumán</strong> Título:<strong> Técnico en sonorización</strong>.</li>
+                        <li>Secundario:<strong> ENET N°3 y ENET N°5;</strong> Título:<strong> Técnico Electro-Mecánico</strong>.</li>
+                        <li>Tecnicatura:<strong> Universidad Siglo XXI;</strong> Título:<strong> Redes informáticas y Telecomunicaciones</strong>.</li>
+                        <li>Tecnicatura:<strong> U.T.N.;</strong> Título:<strong> Mecatrónica</strong>.</li>
+                        <li>Universidad:<strong> U.T.N.;</strong> Título:<strong> Ingeniería Electrónica;</strong> Especialidad:<strong> Robotica</strong>.</li>
+                        <li>Otros estudios o conocimintos:<strong> Profesor KARATE-DO;</strong> estilo: <strong> SHOTOKAN</strong>.</li>
+                        <li>Tecnicatura:<strong> Canal 10 Tucumán;</strong> Título:<strong> Técnico en sonorización</strong>.</li>
                         <li>Autodidacta:<strong> Cursos de japonés, portugués, hebreo, Inglés solo traducciones técnicas</strong>.</li>
-                        <li>Autodidacta:<strong> Curso Arduino, Curso Alambra 2 de FPGA</strong>.</li>
+                        <li>Autodidacta:<strong> Curso de Alambra 2 para FPGA y Curso de Arduino.</strong>.</li>
                     </ol>
                 </fieldset>
                 <br>
                 <fieldset>
                     <legend>Experiencia y habilidades.</legend>
-                        <p>Trabajé teniendo a cargo el Departamento de Systemas y Cómputos de Datos por más de 10 años en Supercanal sa. que es una importante empresa de telecomunicaciones del país, con sucursales en todo el país. El sistema operativo con el que mantenía como administrador era SCO UNIX Santa Cruz Operating System. Los desarrollos de programación se realizaban en Progress; La red se distribuía para los clientes por medio de Terminal-Server y los puestos de trabajos eran terminales bobas conectadas por medio de cable UTP.</p>
-                        <p>También estaba a cargo de todo lo referente al hardware. Servidores, terminales, enrutadores, Swich. Impresoras, Scaners, lápices ópticos y la red lan intranet.</p>
-                        <p>Adquirí experiencia en análisis de sistemas y diagramación de procesos administrativos para su posterior implementación en las lineas de código de programación.</p>
-                        <p>Adquirí experiencia en coordinación de grupos de trabajo.</p>
-                        <p>Adquirí experiencia en tareas de impresión de Facturación mensual para más de cincuenta mil clientes.</p>
-                        <p>Adquirí experiencia en organización de Backup diarios en varias estrategias de respaldo en distintos formatos y dispositivos.</p>
-                        <p>También Realicé desarrollo de sistemas en FoxPro para UNIX, y cuando era niño programaba y compilaba en Lenguaje Basic, y en la universidad aprendí Pascal por ser una de las materias de Ingeniería Electrónica.</p>
-                        <p>Domino las herramientas de oficina, como ser paquete Office entre otros.</p>
-                        <p>Hace unos años atrás empecé a estudiar los kernel de linux en sus distintas distribuciones. Comenzando por debian, Red Hat y otras. Actualmente administro servidores propios de la distro Rocky Linux 9.1. Administro apache (httpd) y dos servidores dns (named) con un motor de Base de datos SQL, mariadb el cual también lo administro, con software visuales amigables de terceros como ser Navicat y los de distribución libre como ser DBeaver.</p>
-                        <p>Actualmente me desempeño en el mantenimiento de redes EoC y dando mantenimiento básico a clientes de la empresa de VideoCable Supercanal, en tanto que el área de sistema desapareció de Tucumán, porque centralizaron lo referente a systema en la provincia de Mendoza.
-                        <p>Adquirí experiencia en trabajo en altura, redes de fibra óptica EPON y GPON uso de todo los instrumentos de medición, OTDR, Medidores de Campo ElectroMagneticos, Calibración de redes de CATV; uso de fusionadora de Fibra Optica.</p>
+                        <p id = "p-texto01">Trabajé teniendo a cargo el Departamento de Systemas y Cómputos de Datos por más de 10 años en Supercanal sa. que es una importante empresa de telecomunicaciones de Argentina, con sucursales en todo el país. El sistema operativo que administraba era SCO UNIX Santa Cruz Operating System. Los desarrollos de programación para manejo de Base de datos, se realizaban en Progress; La intranet se distribuía con Terminal-Server y los puestos de trabajos eran terminales bobas conectadas por medio de cable UTP.</p>
+                        <p id = "p-texto01">También estaba a cargo de todo lo referente al hardware. Servidores, terminales, enrutadores, Swich. Impresoras, Scaners, lápices ópticos y la red lan intranet.</p>
+                        <p id = "p-texto01">Adquirí experiencia en análisis de sistemas y diagramación de procesos administrativos para su posterior implementación en las lineas de código de programación.</p>
+                        <p id = "p-texto01">Adquirí experiencia en coordinación de grupos de trabajo.</p>
+                        <p id = "p-texto01">Adquirí experiencia en tareas de impresión de Facturación mensual para más de cincuenta mil clientes.</p>
+                        <p id = "p-texto01">Adquirí experiencia en organización de Backup diarios en varias estrategias de respaldo en distintos formatos y dispositivos.</p>
+                        <p id = "p-texto01">También Realicé desarrollo de sistemas en FoxPro para UNIX, y cuando era niño programaba y compilaba en Lenguaje Basic, y en la universidad aprendí Pascal por ser una de las materias de Ingeniería Electrónica.</p>
+                        <p id = "p-texto01">Domino las herramientas de oficina, como ser paquete Office entre otros.</p>
+                        <p id = "p-texto01">Hace unos años atrás empecé a estudiar los kernel de linux en sus distintas distribuciones. Comenzando por debian, Red Hat y otras. Actualmente administro servidores propios de la distro Rocky Linux 9.1. Administro apache (httpd) y dos servidores dns (named) con un motor de Base de datos SQL, mariadb el cual también lo administro, con software visuales amigables de terceros como ser Navicat y los de distribución libre como ser DBeaver.</p>
+                        <p id = "p-texto01">Actualmente me desempeño en el mantenimiento de redes EoC y dando mantenimiento básico a clientes de la empresa de VideoCable Supercanal, en tanto que el área de sistema desapareció de Tucumán, porque centralizaron lo referente a systema en la provincia de Mendoza.
+                        <p id = "p-texto01">Adquirí experiencia en trabajo en altura, redes de fibra óptica EPON y GPON uso de todo los instrumentos de medición, OTDR, Medidores de Campo ElectroMagneticos, Calibración de redes de CATV; uso de fusionadora de Fibra Optica.</p>
                 </fieldset>
                 <br>
                 <fieldset>
@@ -90,7 +101,7 @@
                     <a id="anclaje-imagen" href="https://curiositysoftware.ie/wp-content/uploads/2020/10/Model-based-test-automation-for-the-mainframe.png" target="_blank" rel="noflow">[Foto 6]</a>
                     <a id="anclaje-imagen" href="https://s3.amazonaws.com/higherlogicdownload/IMWUC/UploadedImages/i0FJRfZlTf64EgqfQ5Z1_temp.png" target="_blank" rel="noflow">[Foto 7]</a><br><br>
                     <h2 id="h2_01">Enlaces a Videos de KARATE-DO estilo SHOTOKAN</h2>
-                    <a id="anclaje-video" href="https://www.youtube.com/watch?v=1a6CdKSGnlA&list=PLc2AFIK4iKuoNpnUlOs6EmyIKZL8ai0tp&index=6" rel="noflow">[VideoClips 1]</a>
+                    <a id="anclaje-video" href="https://youtu.be/1a6CdKSGnlA" rel="noflow">[VideoClips 1]</a>
                     <a id="anclaje-video" href="https://www.youtube.com/embed/c2wiqaBazpg" rel="noflow">[VideoClips 2]</a>
                     <br>
                     <br>
@@ -112,9 +123,9 @@
             <footer>
                 <h6>Proyecto final para "Educación en línea" - Front end de Argentina Programa - 14 módulos en 18 días; HTML, CSS y JS</h6>
                 <h6>A menos que se indique lo contrario, el contenido de este sitio está licenciado bajo la licencia Creative deb_ar.  -   Reconocimiento Compartido - v1.0. -   &copy; 2023</h6>
-            </footer>
-            <script src="/js/adaptabilidadgrafica.js"></script>
+            </footer>            
         </section>
+        <script src="/js/adaptabilidadgrafica.js"></script>
     </body>
 </html>
 <!-- LOS DATOS DE ESTE BOSQUEJO DE BLOG SON SOLO A MODO DE PRESENTACION
