@@ -12,13 +12,13 @@ section {
               padding:8px;
 }
 
-#reloj-digital {
-            font-size: 20px;
-           text-align: center; 
-}
 #fecha {
             font-size: 20px;
            text-align: right;
+}
+#reloj-digital {
+            font-size: 20px;
+           text-align: center; 
 }
 #Seccion-Reloj-Calendario {
      background-color: rgb(148, 182, 161);
