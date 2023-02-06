@@ -1,116 +1,98 @@
-body { 
-    font-family: 'Merriweather', serif;
-    background-color:#9ec29f;
+ody {
+   font-family: 'Merriweather', serif;
+   background-color:#9ec29f;
 }
 
-/*Recuadro principal*/
-section {
-        width: 400 px;
-        border: 15px transparent;
-        padding: 50px;
-        margin: 20px;
+*Recuadro principal*/
+ection {
+       width: 400 px;
+       border: 15px transparent;
+       padding: 50px;
+       margin: 20px;
 
-        border:transparent 1px;
-        padding:8px;
+       border:transparent 1px;
+       padding:8px;
 }
 
-#Seccion-Reloj-Calendario {
-    background-color: rgb(148, 182, 161);
-    width: 350px;
-    border: 1px transparent;
-    padding: 10px;
-    float: Right;
-    margin-top: 0px;
-    margin-left: 50%;
-    margin-right: 0px;
-    margin-bottom: 2px;
+reloj-digital { font-size: 20px; text-align: center; }
+fecha { font-size: 20px; text-align: right; }
+Seccion-Reloj-Calendario {
+   background-color: rgb(148, 182, 161);
+   width: 350px;
+   border: 1px transparent;
+   padding: 10px;
+   float: Right;
+   margin-top: 0px;
+   margin-left: 50%;
+   margin-right: 0px;
+   margin-bottom: 2px;
 }
 
-/* Con esto logro el efecto de doble line del borde del recuadro*/
-#div_datospersonales {
-    border:solid 1px;
-    padding:8px;
+* Con esto logro el efecto de doble line del borde del recuadro*/
+div_datospersonales {
+   border:solid 1px;
+   padding:8px;
 }
 
-#fecha {
-    font-size: 20px;
-    text-align: right;
+fotocarnet {
+   width: 270px;
 }
 
-#reloj-digital {
-    font-size: 20px;
-    text-align: right;
+egend {
+   border:solid 1px;
+   border-radius: 15px;
+   background-color: rgb(95, 133, 101);
+   float: left;
+   width: 100%;
+   padding: 0;
+   margin-bottom: 0.5rem;
+   font-size: calc(1.275rem + .3vw);
+   line-height: inherit;
+   display: block;
+   padding-inline-start: 2px;
+   padding-inline-end: 2px;
+   text-align: center;
 }
 
-#fotocarnet {
-    width: 270px;
+p-texto {
+   text-align: justify;
 }
 
-legend {
-    border:solid 1px;
-    border-radius: 15px;
-    background-color: rgb(95, 133, 101);
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 0.5rem;
-    font-size: calc(1.275rem + .3vw);
-    line-height: inherit;
-    display: block;
-    padding-inline-start: 2px;
-    padding-inline-end: 2px;
-    text-align: center;
+h2_01 {
+   font-family: 'Merriweather', serif;
+   color: rgb(5, 45, 12);
+   font-size: 18px;
 }
 
-#p-texto {
-    text-align: justify;
+anclaje-imagen {
+   margin: 0 auto; 
 }
 
-#h2_01 {
-    font-family: 'Merriweather', serif;
-    color: rgb(5, 45, 12);
-    font-size: 18px;
+anclaje-video {
+   margin: 0 auto;
 }
 
-#anclaje-imagen {
-    margin: 0 auto; 
+clearfix{
+   clear:both;
 }
 
-#anclaje-video {
-    margin: 0 auto;
+ooter{
+   font-size: 5px;
+
+   text-align: center;
+   
+   color: white;
+   height: 100%;
+   line-height: 50px;  
+   
+   background: rgb(78, 112, 84);
+   background-color: rgb(107, 155, 125);
+   width: 100%;
+   border: 1px transparent;
+   padding: 50px;
+   margin-top: 40px;
+   margin-left: 0%;
+   margin-right: 0px;
+   margin-bottom: 2px;
+   float: Left;
 }
-
-/* .wrap-element y .wrapped-iframe Esto lo usaré para el despliegu
-.wrap-element {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
-
-.wrapped-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-.clearfix{
-    clear:both;
-}
-
-footer{
-    background: rgb(0, 52, 10);
-    color: white;
-    text-align: center;
-    height: 100%;
-    line-height: 50px;
-
-    /* parametros de mi recuadro*/
-    width: 100%;
-    border: 40px solid rgb(0, 52, 10);
-    padding: 0px;
-    margin: 20px;
-}
-
