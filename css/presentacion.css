@@ -1,98 +1,98 @@
 body {
-    font-family: 'Merriweather', serif;
-    background-color:#9ec29f;
+          font-family: 'Merriweather', serif;
+     background-color:#9ec29f;
 }
 
-/*Recuadro principal*/
 section {
-        width: 400 px;
-        border: 15px transparent;
-        padding: 50px;
-        margin: 20px;
-
-        border:transparent 1px;
-        padding:8px;
+                width: 400 px;
+               border: 15px transparent;
+              padding: 50px;
+               margin: 20px;
+               border:transparent 1px;
+              padding:8px;
 }
 
-#reloj-digital { font-size: 20px; text-align: center; }
-#fecha { font-size: 20px; text-align: right; }
+#reloj-digital {
+            font-size: 20px;
+           text-align: center; 
+}
+#fecha {
+            font-size: 20px;
+           text-align: right;
+}
 #Seccion-Reloj-Calendario {
-    background-color: rgb(148, 182, 161);
-    width: 350px;
-    border: 1px transparent;
-    padding: 10px;
-    float: Right;
-    margin-top: 0px;
-    margin-left: 50%;
-    margin-right: 0px;
-    margin-bottom: 2px;
+     background-color: rgb(148, 182, 161);
+                width: 350px;
+               border: 1px transparent;
+              padding: 10px;
+                float: Right;
+           margin-top: 0px;
+          margin-left: 50%;
+         margin-right: 0px;
+        margin-bottom: 2px;
 }
 
-/* Con esto logro el efecto de doble line del borde del recuadro*/
-#div_datospersonales {
-    border:solid 1px;
-    padding:8px;
-}
 
 #fotocarnet {
-    width: 270px;
+                width: 270px;
 }
 
 legend {
-    border:solid 1px;
-    border-radius: 15px;
-    background-color: rgb(95, 133, 101);
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 0.5rem;
-    font-size: calc(1.275rem + .3vw);
-    line-height: inherit;
-    display: block;
-    padding-inline-start: 2px;
-    padding-inline-end: 2px;
-    text-align: center;
-}
-
-#p-texto {
-    text-align: justify;
+               border:solid 1px;
+        border-radius: 15px;
+     background-color: rgb(95, 133, 101);
+                float: left;
+                width: 100%;
+              padding: 0;
+        margin-bottom: 0.5rem;
+            font-size: calc(1.275rem + .3vw);
+          line-height: inherit;
+              display: block;
+ padding-inline-start: 2px;
+   padding-inline-end: 2px;
+           text-align: center;
 }
 
 #h2_01 {
-    font-family: 'Merriweather', serif;
-    color: rgb(5, 45, 12);
-    font-size: 18px;
+         
+                color: rgb(5, 45, 12);
+            font-size: 18px;
+}
+
+#p-texto01 {
+            font-size: 14px;
+           text-align: justify;
 }
 
 #anclaje-imagen {
-    margin: 0 auto; 
+               margin: 0 auto; 
 }
 
 #anclaje-video {
-    margin: 0 auto;
-}
-
-.clearfix{
-    clear:both;
+               margin: 0 auto;
 }
 
 footer{
-    font-size: 5px;
+           text-align: center;                
+               height: 100%;
+          line-height: 50px;  
+           background: rgb(78, 112, 84);
+     background-color: rgb(95, 133, 101);                    
+                width: 100%;
+               border: 1px transparent;
+              padding: 50px;
+           margin-top: 40px;
+          margin-left: 0%;
+         margin-right: 0px;
+        margin-bottom: 2px;
+                float: Left;
+}
 
-    text-align: center;
-    
-    color: white;
-    height: 100%;
-    line-height: 50px;  
-    
-    background: rgb(78, 112, 84);
-    background-color: rgb(107, 155, 125);
-    width: 100%;
-    border: 1px transparent;
-    padding: 50px;
-    margin-top: 40px;
-    margin-left: 0%;
-    margin-right: 0px;
-    margin-bottom: 2px;
-    float: Left;
+#p-pie {
+                color: whitesmoke;
+            font-size: 12px;       
+}
+
+.clearfix{
+                clear:both;
 }
