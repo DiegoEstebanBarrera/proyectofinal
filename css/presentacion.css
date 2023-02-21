@@ -3,8 +3,8 @@ body {
   background-color:#9ec29f;
 }
 
-section {
-  width: 99%;
+#section-padre {
+  width: 95%;
   border: transparent;
   margin: 1%;
   border: transparent 1%;
@@ -14,7 +14,7 @@ section {
 legend {
   border: solid 1px;
   border-radius: 15px;
-  background-color: rgb(95, 133, 101);
+  background-color: rgb(95, 133, 101)
   float: left;
   width: 100%;
   padding: 0;
@@ -25,22 +25,6 @@ legend {
   padding-inline-start: 2px;
   padding-inline-end: 2px;
   text-align: center;
-}
-
-footer{
-  text-align: center;                
-  height: 100%;
-  line-height: 1%;  
-  background: rgb(78, 112, 84);
-  background-color: rgb(95, 133, 101);                    
-  width: 100%;
-  border: 1px transparent;
-  padding: 50px;
-  margin-top: 40px;
-  margin-left: 0%;
-  margin-right: 0px;
-  margin-bottom: 2px;
-  float: Left;
 }
 
 #fecha {
@@ -54,7 +38,7 @@ footer{
 }
 
 #Seccion-Reloj-Calendario {
-  background-color: rgba(148, 182, 161, 0.5);
+  background-color: rgba(148, 182, 16
   width: 350px;
   border: 1px transparent;
   padding: 10px;
@@ -65,10 +49,9 @@ footer{
   margin-bottom: 2px;
 }
 
-#fotocarnet {
-  width:15%;
+#img-fotocanet {
+  width: 30%;
 }
-
 
 #h1_01 { 
   color: rgb(5, 45, 12);
@@ -82,23 +65,48 @@ footer{
 }
 
 .p-texto01 {
-  font-size: 14px;
+  font-size: 18px;
   text-align: justify;
 }
 
+li {
+   font-size: 18px; 
+}
+
 .anclaje-imagen {
-  margin: 0 auto; 
+   text-decoration: none;
+   padding-left: 5px;
+   padding-right: 5px;
 }
 
 .anclaje-video {
-  margin: 0 auto;
+  text-decoration: none;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+footer{
+  text-align: center;             
+  height: 100%;
+  line-height: 1%;  
+  background: rgb(78, 112, 84);
+  background-color: rgb(95, 133, 101)
+  width: 100%;
+  border: 1px transparent;
+  padding: 50px;
+  margin-top: 20px;
+  margin-left: 0%;
+  margin-right: 0px;
+  margin-bottom: 2px;
+  float: Left;
 }
 
 .p-pie {
   color: whitesmoke;
-  font-size: 12px;       
+  font-size: 14px;       
 }
 
-.clearfix{
+
+.clearfix {
   clear:both;
 }
