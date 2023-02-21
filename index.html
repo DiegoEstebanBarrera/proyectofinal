@@ -33,22 +33,26 @@
         <link rel = "stylesheet" href = "./css/presentacion.css" type="text/css"/>
     </head>
     <body>
-        <section>
+        <section id="section-padre">
             <section id="Seccion-Reloj-Calendario">
+                
                 <div id = "fecha">
                     <script src = "./js/fecha.js"></script>
                 </div>               
+                
                 <div id = "reloj-digital">
                     <script src = "./js/reloj-digital.js"></script>
                 </div>
+            
             </section>
-            <img id = "fotocarnet" src = "./multimedios/imagenes/fotoAION.png">
+            <img id=img-fotocanet src = "./multimedios/imagenes/fotoAION.png"/>
             <h1 id="h1_01">Juan De Los Palotes</h1>
-            <p>Dirección: <strong>Av.Belgrano 5500, Dto 10;</strong>  Celular:<strong> 54-381-456-9999</strong>.</p>
+            <p class = "p-texto01">Dirección: <strong>Av.Belgrano 5500, Dto 10;</strong>  Celular:<strong> 54-381-456-9999</strong>.</p>
             <br>
+            
             <fieldset>
                 <legend>Datos Generales</legend>
-                <ul> <!-- etiqueta de lista del tipo viñetas -->
+                <ul>
                     <li>Nacionalidad:<strong> argentina + italia</strong>.</li>
                     <li>Fecha de nacimiento:<strong> 04/11/1986</strong>.</li>
                     <li>DNI:<strong> 33.333.333</strong>.</li>
@@ -56,10 +60,11 @@
                     <li>Dominio de idiomas:<strong> español, japones, italiano, portugués</strong>.</li>
                 </ul>
             </fieldset>
+            
             <br>
             <fieldset>
                 <legend>Estudios realizados</legend>
-                <ol>  <!-- etiqueta de lista del tipo numerado -->
+                <ol>
                     <li>Primario:<strong> Distintas escuelas del país (Bs.As., Salta, Tierra del Fuego y Tucumán)</strong>.</li>
                     <li>Secundario:<strong> ENET N°3 y ENET N°5;</strong> Título:<strong> Técnico Electro-Mecánico</strong>.</li>
                     <li>Tecnicatura:<strong> Universidad Siglo XXI;</strong> Título:<strong> Redes informáticas y Telecomunicaciones</strong>.</li>
@@ -71,6 +76,7 @@
                     <li>Autodidacta:<strong> Curso de Alambra 2 para FPGA y Curso de Arduino.</strong>.</li>
                 </ol>
             </fieldset>
+            
             <br>
             <fieldset>
                 <legend>Experiencia y habilidades.</legend>
@@ -86,39 +92,43 @@
                     <p class = "p-texto01">Actualmente me desempeño en el mantenimiento de redes EoC y dando mantenimiento básico a clientes de la empresa de VideoCable Supercanal, en tanto que el área de sistema desapareció de Tucumán, porque centralizaron lo referente a systema en la provincia de Mendoza.
                     <p class = "p-texto01">Adquirí experiencia en trabajo en altura, redes de fibra óptica EPON y GPON uso de todo los instrumentos de medición, OTDR, Medidores de Campo ElectroMagneticos, Calibración de redes de CATV; uso de fusionadora de Fibra Optica.</p>
             </fieldset>
+            
             <br>
             <fieldset>
                 <legend>Compartiendo multimedios de mi interés</legend>
                 <h2 class="h2_01">Enlaces a fotos referentes a Mainframe</h2>
                 <!-- Buena práctica: Los anclajes SOLO deben tener "anclas", NUNCA Botones u otros elementos -->
-                <a class="anclaje-imagen" href="https://th.bing.com/th/id/R.dd20f304e00b04a01e880a3a4f39ee1b?rik=QTB8NpjrsIi6uQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-cjVH4VTMisc%2fUCYfIHmy0lI%2fAAAAAAAAAWc%2fF9-C4TFg-IY%2fs1600%2fMainframe.jpg&ehk=1lbUqTVsQuqMii05G%2feT8qnGuH519CLlK25ySaeEf44%3d&risl=&pid=ImgRaw&r=0" target="_blank">[Foto 1]</a>
-                <a class="anclaje-imagen" href="https://1.bp.blogspot.com/-wo2TlkVPzCE/Xpr_csSGi5I/AAAAAAAAJMw/_DzBH0UMzq4zXv1OXTYkpnFFcTYGrsPRwCNcBGAsYHQ/s1600/Inside%2BZ9%2BIBM%2BMainframe.jpg" target="_blank" rel="noflow">[Foto 2]</a>
-                <a class="anclaje-imagen" href="https://img.favpng.com/10/1/15/ibm-z13-mainframe-computer-linux-on-z-systems-png-favpng-89FGbHq9UDaK17CeLfv3GzHHf.jpg" target="_blank" rel="noflow">[Foto 3]</a>
-                <a class="anclaje-imagen" href="https://www.precisely.com/app/uploads/2017/08/blog_mainframe-history.jpg" target="_blank" rel="noflow">[Foto 4]</a>
-                <a class="anclaje-imagen" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.UgHiVoy7acUUAcCOA5fdTAHaEo%26pid%3DApi&f=1&ipt=eeaa00024a0aa2e983e6c319663506438dbd7073b8e00bc5a1595a6ce9eac629&ipo=images"target="_blank" rel="noflow">[Foto 5]</a>
-                <a class="anclaje-imagen" href="https://curiositysoftware.ie/wp-content/uploads/2020/10/Model-based-test-automation-for-the-mainframe.png" target="_blank" rel="noflow">[Foto 6]</a>
-                <a class="anclaje-imagen" href="https://s3.amazonaws.com/higherlogicdownload/IMWUC/UploadedImages/i0FJRfZlTf64EgqfQ5Z1_temp.png" target="_blank" rel="noflow">[Foto 7]</a><br><br>
+                <a class="anclaje-imagen" href="https://th.bing.com/th/id/R.dd20f304e00b04a01e880a3a4f39ee1b?rik=QTB8NpjrsIi6uQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-cjVH4VTMisc%2fUCYfIHmy0lI%2fAAAAAAAAAWc%2fF9-C4TFg-IY%2fs1600%2fMainframe.jpg&ehk=1lbUqTVsQuqMii05G%2feT8qnGuH519CLlK25ySaeEf44%3d&risl=&pid=ImgRaw&r=0" target="_blank">Foto 1</a>
+                <a class="anclaje-imagen" href="https://1.bp.blogspot.com/-wo2TlkVPzCE/Xpr_csSGi5I/AAAAAAAAJMw/_DzBH0UMzq4zXv1OXTYkpnFFcTYGrsPRwCNcBGAsYHQ/s1600/Inside%2BZ9%2BIBM%2BMainframe.jpg" target="_blank" rel="noflow">Foto 2</a>
+                <a class="anclaje-imagen" href="https://img.favpng.com/10/1/15/ibm-z13-mainframe-computer-linux-on-z-systems-png-favpng-89FGbHq9UDaK17CeLfv3GzHHf.jpg" target="_blank" rel="noflow">Foto 3</a>
+                <a class="anclaje-imagen" href="https://www.precisely.com/app/uploads/2017/08/blog_mainframe-history.jpg" target="_blank" rel="noflow">Foto 4</a>
+                <a class="anclaje-imagen" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.UgHiVoy7acUUAcCOA5fdTAHaEo%26pid%3DApi&f=1&ipt=eeaa00024a0aa2e983e6c319663506438dbd7073b8e00bc5a1595a6ce9eac629&ipo=images"target="_blank" rel="noflow">Foto 5</a>
+                <a class="anclaje-imagen" href="https://curiositysoftware.ie/wp-content/uploads/2020/10/Model-based-test-automation-for-the-mainframe.png" target="_blank" rel="noflow">Foto 6</a>
+                <a class="anclaje-imagen" href="https://s3.amazonaws.com/higherlogicdownload/IMWUC/UploadedImages/i0FJRfZlTf64EgqfQ5Z1_temp.png" target="_blank" rel="noflow">Foto 7</a><br><br>
+            
                 <h2 class="h2_01">Enlaces a Videos de KARATE-DO estilo SHOTOKAN</h2>
-                <a class="anclaje-video" target="_blank" href="https://youtu.be/1a6CdKSGnlA" rel="noflow">[VideoClips 1]</a>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/embed/c2wiqaBazpg" rel="noflow">[VideoClips 2]</a>
+                <a class="anclaje-video" href="https://youtu.be/1a6CdKSGnlA" rel="noflow" target="_blank">VideoClips 1</a>
+                <a class="anclaje-video" href="https://www.youtube.com/embed/c2wiqaBazpg" rel="noflow" target="_blank">VideoClips 2</a>
                 <br><br>
+            
                 <h2 class="h2_01">Elaces a VideoClips de Música de LMFAO para levantar el ánimo  :)</h2>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/watch?v=xGiBiHocSZM" rel="noflow">[VideoClips 1]</a>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/watch?v=wyx6JDQCslE" rel="noflow">[VideoClips 2]</a>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/watch?v=CdLhdrNgGu4" rel="noflow">[VideoClips 3]</a>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/watch?v=XNtTEibFvlQ" rel="noflow">[VideoClips 4]</a>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/watch?v=kqwzomNBaJ8" rel="noflow">[VideoClips 5]</a>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/watch?v=SkTt9k4Y-a8" rel="noflow">[VideoClips 6]</a>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/watch?v=Ye6r1OCWrW4" rel="noflow">[VideoClips 7]</a>
-                <a class="anclaje-video" target="_blank" href="https://www.youtube.com/watch?v=UA8rcLvS1BY" rel="noflow">[VideoClips 8]</a>
+                <a class="anclaje-video" href="https://www.youtube.com/watch?v=xGiBiHocSZM" rel="noflow" target="_blank">VideoClips 1</a>
+                <a class="anclaje-video" href="https://www.youtube.com/watch?v=wyx6JDQCslE" rel="noflow" target="_blank">VideoClips 2</a>
+                <a class="anclaje-video" href="https://www.youtube.com/watch?v=CdLhdrNgGu4" rel="noflow" target="_blank">VideoClips 3</a>
+                <a class="anclaje-video" href="https://www.youtube.com/watch?v=XNtTEibFvlQ" rel="noflow" target="_blank">VideoClips 4</a>
+                <a class="anclaje-video" href="https://www.youtube.com/watch?v=kqwzomNBaJ8" rel="noflow" target="_blank">VideoClips 5</a>
+                <a class="anclaje-video" href="https://www.youtube.com/watch?v=SkTt9k4Y-a8" rel="noflow" target="_blank">VideoClips 6</a>
+                <a class="anclaje-video" href="https://www.youtube.com/watch?v=Ye6r1OCWrW4" rel="noflow" target="_blank">VideoClips 7</a>
+                <a class="anclaje-video" href="https://www.youtube.com/watch?v=UA8rcLvS1BY" rel="noflow" target="_blank">VideoClips 8</a>
             </fieldset>
-            <footer>
-                <p class="p-pie">Proyecto final de Front End. (Educación en línea de Argentina Programa).
-                <p class="p-pie">- 14 módulos en 18 días; HTML, CSS y JS -</p>
-                <p class="p-pie">A menos que se indique lo contrario, este contenido está licenciado a Creative deb_ar.
-                <p class="p-pie">Reconocimiento Compartido - v1.0. -  &copy; 2023.</p>
-            </footer>            
-        </section>
+        </section>    
+        <footer>
+            <p class="p-pie">Proyecto final de Front End. (Educación en línea de Argentina Programa).
+            <p class="p-pie">- 14 módulos en 18 días; HTML, CSS y JS -</p>
+            <p class="p-pie">A menos que se indique lo contrario, este contenido está licenciado a Creative deb_ar.
+            <p class="p-pie">Reconocimiento Compartido - v1.0. -  &copy; 2023.</p>
+        </footer>            
+        
         <div class="clearfix"></div>
         <script src="/js/adaptabilidadgrafica.js"></script>
     </body>
